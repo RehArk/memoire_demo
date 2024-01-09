@@ -1,0 +1,13 @@
+{
+  "name": "memoire_demo",
+  "version": "1.0.0",
+  "description": "Projet de demo de solution de memoire",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "node src/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-licence": "node vendor/open-source-licence-builder/src/main.js"
+  },
+  "author": "RehArk",
+  "license": "SEE LICENSE IN LICENCES.MD"
+}
