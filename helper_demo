@@ -1,0 +1,33 @@
+{
+  "licences": [
+    {
+      "licence": "mit",
+      "params": {
+        "copyright_author": "RehArk",
+        "year": "year"
+      },
+      "file": {
+        "includes": [
+          "src"
+        ],
+        "excludes": []
+      }
+    }
+  ]
+}
+
+{
+  "licence": "RehArk Licence",
+  "params": {
+    "copyright_author": "RehArk",
+    "year": "2023 - now"
+  },
+  "file": {
+    "includes": [
+        "src\\core"
+    ],
+    "excludes": []
+  },
+  "custom_file_template": "{{licence_name}} -- by {{copyright_author}} in {{year}}",
+  "custom_licence_template": "{{licence_name}} -- by {{copyright_author}} in {{year}} \nAll right reserved."
+}
